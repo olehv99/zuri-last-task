@@ -1,0 +1,185 @@
+@import url("https://db.onlinewebfonts.com/c/c7b48d5c13a7bfeac062a7a75a3b9b43?family=DrescherGroteskBTW01-Book");
+body {
+  background-image: url(./hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+}
+main {
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+.header {
+  margin-top: 6%;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+}
+.header-2 {
+  margin-top: 3%;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.first-par {
+  font-size: 1em;
+  font-family: "Questrial";
+  line-height: 1.5em;
+  margin-top: 1em;
+  font-weight: 600;
+  color: gray;
+}
+
+.button-1 {
+  background-color: rgb(231, 51, 43);
+  color: white;
+  border: transparent;
+  height: 3em;
+  margin-right: 2em;
+  width: 15%;
+  font-size: 1em;
+}
+.button-2 {
+  background-color: #fff;
+  border: 1px solid rgb(231, 51, 43);
+  height: 3em;
+  width: 20%;
+  font-size: 1em;
+}
+button {
+  margin-top: 5%;
+}
+.button-1:hover {
+  background-color: transparent;
+  color: rgb(231, 51, 43);
+  border: 1px solid rgb(231, 51, 43);
+}
+.button-2:hover {
+  background-color: rgb(231, 51, 43);
+  color: #fff;
+}
+
+.word-highlight-1 {
+  color: rgb(231, 51, 43);
+
+  font-size: 2em;
+}
+.wh2 {
+  color: rgb(231, 51, 43);
+}
+.header-3 {
+  padding-top: 25em;
+  font-family: "Questrial";
+  font-size: 1em;
+}
+.par-2 {
+  font-family: "Questrial";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.header-3 {
+  color: rgb(231, 51, 43);
+}
+.main-div {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  height: 30em;
+  padding-top: 2em;
+}
+.left {
+  background-color: rgb(255, 250, 250);
+  padding: 1em;
+  font-family: "Questrial";
+  font-size: 1em;
+  margin-right: 2%;
+
+  font-weight: 600;
+}
+.centre {
+  background-color: rgb(255, 250, 250);
+  padding: 1em;
+  font-family: "Questrial";
+  font-size: 1em;
+
+  font-weight: 600;
+}
+.right {
+  background-color: rgb(255, 250, 250);
+  padding: 1em;
+  font-family: "Questrial";
+  font-size: 1em;
+  margin-left: 2%;
+
+  font-weight: 600;
+}
+.head-1 {
+  background-color: #fff;
+  padding-right: 6em;
+  box-sizing: border-box;
+  width: 40%;
+  height: 20%;
+  padding-top: 2em;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 5%;
+  font-weight: 600;
+  padding-left: 1em;
+}
+a[href] {
+  color: rgb(231, 51, 43);
+  font-family: "Questrial";
+  font-size: 1em;
+  font-weight: 600;
+  word-spacing: 2px;
+  /* margin-bottom: 2em; */
+  position: relative;
+  top: 2em;
+  right:3em ;
+
+}
+.par-7 {
+  color: gray;
+
+  justify-content: center;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.5em;
+  width: 81%;
+}
+.par-8 {
+  color: gray;
+
+  justify-content: center;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.5em;
+  width: 91%;
+  ;
+}
+.par-9{
+  color: gray;
+
+  justify-content: center;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.5em;
+  width: 80%;
+}
