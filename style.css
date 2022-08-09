@@ -19,12 +19,13 @@ main {
   box-sizing: border-box;
 }
 .header {
-  margin-top: 6%;
-
+  margin-top: 8%;
+position: relative;
+bottom: 2em;
   font-weight: 400;
   font-size: 1.5rem;
-  font-family: "Poppins" sans-serif;
-  font-weight: 500;
+  font-family:"Questrial"; 
+  font-weight: 600;
 }
 .header-2 {
   margin-top: 3%;
@@ -72,9 +73,10 @@ button {
 
 .word-highlight-1 {
   color: rgb(231, 51, 43);
-
-  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
 }
+
 .wh2 {
   color: rgb(231, 51, 43);
 }
@@ -140,7 +142,7 @@ button {
   font-weight: 600;
   padding-left: 1em;
 }
-a[href] {
+.first {
   color: rgb(231, 51, 43);
   font-family: "Questrial";
   font-size: 1em;
@@ -150,6 +152,7 @@ a[href] {
   position: relative;
   top: 2em;
   right:3em ;
+  text-decoration: none;
 
 }
 .par-7 {
@@ -183,3 +186,113 @@ a[href] {
   line-height: 1.5em;
   width: 80%;
 }
+.down-head{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Questrial";
+  font-size: 1em; 
+  font-weight: 400;
+  padding-top: 15em;
+}
+.ln-1{
+  padding: 9px;
+  font-family: "Questrial";
+  font-weight: 600;
+  color: rgb(231, 51, 43);
+  text-decoration: none;
+
+}
+.ln-2{
+  margin-top: 1em;
+  font-weight: 600;
+  color: rgb(231, 51, 43);
+  text-decoration: none;
+}
+.con-1{
+  color: gray;
+  font-size: 14px;
+  
+  font-weight: 500;
+}
+.contact{
+  position: relative;
+  right: 3em;
+}
+  
+.down-head{
+  font-family: "Questrial";
+  font-weight: 500;
+}
+.ln-1, .ln-2{
+  color: rgb(231, 51, 43);
+}
+.con-2{
+  color: rgb(231, 51, 43);
+  margin-top: 1em;
+  font-weight: 600;
+  text-decoration: none;
+}
+#fb{
+  color: rgb(58,85,159);
+}
+#tw{
+  color: rgb(29,161,242);
+}
+#insta{
+  color: rgb(214,36,110);
+  
+}
+
+#in{
+  color:rgb(1,119,181);
+}
+  .dot{
+    color: rgb(231, 51, 43);
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+
+  }
+  .dh-1{
+    font-size: 1.5em;
+  }
+  .h{
+    width: 90%;
+    height: 3px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    background-color: rgb(220,219,219);
+  }
+  
+  .lag{
+    margin-right: 8em;
+  }
+  .icons{
+    font-size: 1.5em;
+  }
+    
+ .dh-2{
+  font-weight: 600;
+  color: rgb(51, 49, 49);
+ } 
+  .dh-3{
+    color: rgb(51, 49, 49);
+  }
+  .con-2{
+    margin-left: 2em;
+    font-family: "poppins";
+    font-size: 13px;
+  }
+  .con-1{
+    margin-left: 9.5em;
+  }
+  .footer{
+    margin-top: 2em;
+    padding-bottom: 8em;
+    font-family: "Questrial";
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+
